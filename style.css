@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+.banner{
+    position: relative;
+    background-image: url(dubai.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    color: #fff;
+    margin-left: 20px;
+    font-family: Goudy Stou;
+    font-size: 35px;
+
+
+}
+span{
+    color: orangered;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    padding: 0.5%;
+    background: rgba(0,0,0,0.5);
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    
+}
+.navbar ul li{
+    padding: 20px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.navbar ul li:hover{
+    color: orangered;
+ 
+}
+.main{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+
+    
+}
+.content{
+    display: flex;
+    margin-left: 0%;
+    width: 70%;
+    height: 500px;
+    
+}
+.box{
+    width: 350px;
+    height: 500px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 5%;
+     
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.90); 
+}
+.boxtext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    padding-top: 14px;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+
+}
+.btn button{
+    background: orangered;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+.btn button:hover{
+    color: blue;
+}
+.icon{
+    background-position: center;
+    width: 100%;
+    height: 25%;
+    font-size: 100px;
+}
+.icon ion-icon{
+    display: flex;
+    margin-left: 40%;
+    color: #fff;
+    
+}
+.title{
+    position: absolute;
+    width: 70%;
+    float: left;
+    margin-left: 70%;
+}
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 45%;
+    background: rgba(0,0,0,0.5);
+    letter-spacing: 5px;
+}
